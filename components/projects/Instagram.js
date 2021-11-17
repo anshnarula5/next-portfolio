@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Skill from "../Skill";
-const Carousel = require("react-responsive-carousel").Carousel;
+import {Carousel} from "react-bootstrap";
 
 import js from "../../img/javascript.svg";
 import nodejs from "../../img/nodejs.svg";
@@ -34,10 +34,16 @@ import insta3 from "../../display/insta-3.jpg";
 import insta4 from "../../display/insta-4.jpg";
 
 const Instagram = () => {
-  console.log(bootstrap.src);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div class="bg-fill">
-      <Image src={bg} height="200rem" width="100%" alt="" />
+      <Image src={bg}  width = {1600} height = {200} layout = "responsive" className = "image"/>
       <div style={{ backgroundColor: "#e3f2fd" }}>
         <h2 class="text-center mb-5 display-6">Instagram Clone</h2>
         <div class="row ">
@@ -61,16 +67,21 @@ const Instagram = () => {
               <span class="blue">node.js</span> and data is stored in{" "}
               <span class="blue">Mongodb</span>.
               <h3 class="mt-5 text-center display-8">Tech used</h3>
-              <div class="stacks row">
-                <Skill name="Javascript" img={js} />
-                <Skill name="Nodejs" img={nodejs} />
-                <Skill name="React" img={js} />
-                <Skill name="Express" img={express} />
-                <Skill name="MongoDB" img={mongodb} />
-                <Skill name="Redux" img={redux1} />
-                <Skill name="Bootstrap" img={bootstrap} />
-                <Skill name="Axios" img={axios} />
-                <Skill name="JWT" img={jwt} />
+              <div class="stacks row ">
+                <Skill name="Javascript" width=" 3rem" img={js} text="text" />
+                <Skill name="Nodejs" width=" 3rem" img={nodejs} text="text" />
+                <Skill name="React" width=" 3rem" img={js} text="text" />
+                <Skill name="Express" width=" 3rem" img={express} text="text" />
+                <Skill name="MongoDB" width=" 3rem" img={mongodb} text="text" />
+                <Skill name="Redux" width=" 3rem" img={redux1} text="text" />
+                <Skill
+                  name="Bootstrap"
+                  width=" 3rem"
+                  img={bootstrap}
+                  text="text"
+                />
+                <Skill name="Axios" width=" 3rem" img={axios} text="text" />
+                <Skill name="JWT" width=" 3rem" img={jwt} text="text" />
               </div>
             </div>
             <a href="https://instagram-a5.netlify.app/" target="_blank">
@@ -82,22 +93,19 @@ const Instagram = () => {
           </div>
           <div class="col-md-6 mt-5">
             <div class="px-3">
-              <Carousel
-                showArrows={true}
-                
-              >
-                <div>
+              <Carousel variant="dark">
+                <Carousel.Item>
                   <Image src={insta1} class="d-block w-100" alt="..." />
-                </div>
-                <div>
-                  <Image src={insta1} class="d-block w-100" alt="..." />
-                </div>
-                <div>
-                  <Image src={insta1} class="d-block w-100" alt="..." />
-                </div>
-                <div>
-                  <Image src={insta1} class="d-block w-100" alt="..." />
-                </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image src={insta2} class="d-block w-100" alt="..." />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image src={insta3} class="d-block w-100" alt="..." />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image src={insta4} class="d-block w-100" alt="..." />
+                </Carousel.Item>
               </Carousel>
             </div>
           </div>

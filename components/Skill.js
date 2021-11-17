@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-
-const Skill = ({ name, img }) => {
+const Skill = ({ name, img, width, mt = 2 }) => {
   return (
     <span
       class="col-md-2 col-3 mt-3 d-flex flex-column align-items-center d-inline stack"
@@ -14,11 +13,13 @@ const Skill = ({ name, img }) => {
       data-tilt-scale="1.1"
     >
       <span class="texta">{name}</span>{" "}
-      <Image
-        src={img}
-        style={{width: "3rem", transform: "translateZ(20px)"}}
-        alt=""
-      />
+      <span style={{ width: width, transform: "translateZ(20px)" }} className = {`mt-${mt}`}>
+        <Image
+          src={img}
+          alt=""
+          layout = "responsive"
+        />
+      </span>
     </span>
   );
 };

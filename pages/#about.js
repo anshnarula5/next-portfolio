@@ -26,7 +26,7 @@ const About = () => {
           </p>
         </div>
         <div className="col-md-6 my-auto">
-          <Image src={code} width="500" />
+          <Image alt = "coder" src={code} width="500" />
         </div>
       </div>
       </section>

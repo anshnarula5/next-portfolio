@@ -15,7 +15,7 @@ const Connect = ({ isDarkMode }) => {
         ></path>
       </svg>
       <h1  className="text-center display-4 mt-5">Connect with ME!</h1>
-      <Image src={last} layout="responsive" />
+      <Image alt = "svg" src={last} layout="responsive" />
       <Email />
     </div>
   );

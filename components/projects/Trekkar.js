@@ -44,7 +44,7 @@ import trekkar4 from "../../display/trekkar-4.jpg";
 const Trekkar = ({isDarkMode}) => {
   const Blue = styled.span`
     color: ${isDarkMode ? "yellow" :"#023e8a"};
-    font-weight: 900;
+    font-weight: 900
   `;
   return (
     <div className="bg-unfill">

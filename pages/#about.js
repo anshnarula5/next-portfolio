@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import code from "../display/code.svg";
-import first from "../bg/first.svg";
 import styled from "styled-components";
 
 const About = () => {

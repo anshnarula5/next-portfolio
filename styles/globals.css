@@ -104,12 +104,15 @@ div{
 
 @media screen and (max-width : 500px){
   .main{
-    margin-top: 70px;
+    margin-top: 63px;
   }
   .skill{
     width: 3rem;
   }
   .texta{
+    opacity: 0;
+  }
+  .hidNav{
     opacity: 0;
   }
   .hide:hover .texta{

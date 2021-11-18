@@ -3,6 +3,9 @@ import React from "react";
 import Image from "next/image";
 import { Carousel } from "react-bootstrap";
 
+import styled from "styled-components";
+
+
 import js from "../../img/javascript.svg";
 import nodejs from "../../img/nodejs.svg";
 import express from "../../img/express.svg";
@@ -30,22 +33,26 @@ import bg2 from "../../bg/svg2.png";
 import bg from "../../bg/svg.png";
 import Skill from "../Skill";
 
-import trekkar1 from "../../display/trekkar-1.jpg";
-import trekkar2 from "../../display/trekkar-2.jpg";
-import trekkar3 from "../../display/trekkar-3.jpg";
-import trekkar4 from "../../display/trekkar-4.jpg";
+import c1 from "../../display/c-1.jpg";
+import c2 from "../../display/c-2.jpg";
+import c3 from "../../display/c-3.jpg";
+import c4 from "../../display/c-4.jpg";
 
-const Countries = () => {
+const Countries = ({isDarkMode}) => {
+  const Blue = styled.span`
+    color: ${isDarkMode ? "yellow" :"#023e8a"};
+    font-weight: 900;
+  `;
   return (
     <>
-      <Image
-        src={bg}
-        width={1600}
-        height={200}
-        layout="responsive"
-        className="image"
-      />
-      <div class="bg-fill" style={{ backgroundColor: "#e3f2fd" }}>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill={isDarkMode ? "#04395e" : "#e3f2fd"}
+          fill-opacity="1"
+          d="M0,160L30,144C60,128,120,96,180,117.3C240,139,300,213,360,208C420,203,480,117,540,112C600,107,660,181,720,224C780,267,840,277,900,256C960,235,1020,181,1080,181.3C1140,181,1200,235,1260,240C1320,245,1380,203,1410,181.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+      <div class="bg-fill" style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd"  }}>
         <div>
           <h2 class="text-center mb-5 display-6">Countries</h2>
           <div class="row ">
@@ -53,34 +60,34 @@ const Countries = () => {
               <div class="pl-5">
                 A <pan class="blue">React</pan> application in which user can
                 interact with
-                <span class="blue">maps</span> and country{" "}
-                <span class="blue">flags</span>. User can get each country's{" "}
-                <span class="blue">information </span>either by
-                <span class="blue">searching</span>, by flags or by pointing a{" "}
-                <span class="blue">country</span> in map
-                <span class="blue">Openweathermap</span> API is used for
+               <Blue>maps</Blue> and country{" "}
+               <Blue>flags</Blue>. User can get each country's{" "}
+               <Blue>information </Blue>either by
+               <Blue>searching</Blue>, by flags or by pointing a{" "}
+               <Blue>country</Blue> in map
+               <Blue>Openweathermap</Blue> API is used for
                 providing weather information which is dispayed using{" "}
-                <span class="blue">chart.js</span>.{" "}
-                <span class="blue">AmCharts</span> is used for displaying maps
+               <Blue>chart.js</Blue>.{" "}
+               <Blue>AmCharts</Blue> is used for displaying maps
                 and
-                <span class="blue">bootstrap</span> is used for styling
+               <Blue>bootstrap</Blue> is used for styling
                 <h3 class=" text-center mt-5">Tech used</h3>
                 <div class="stacks row">
-                  <Skill name="Javascript" width=" 3rem" img={js} text="text" />
-                  <Skill name="Redux" width=" 3rem" img={redux1} text="text" />
+                  <Skill name="Javascript" width=" 4rem" img={js} text="text" />
+                  <Skill name="Redux" width=" 4rem" img={redux1} text="text" />
                   <Skill
                     name="Bootstrap"
-                    width=" 3rem"
+                    width=" 4rem"
                     img={bootstrap}
                     text="text"
                   />
                   <Skill
                     name="Chart.js"
-                    width=" 3rem"
+                    width=" 4rem"
                     img={chartjs}
                     text="text"
                   />
-                  <Skill name="AmChart" width=" 3rem" img={js} text="text" />
+                  <Skill name="AmChart" width=" 4rem" img={js} text="text" />
                 </div>
               </div>
               <a href="https://countries-app-a5.netlify.app/" target="_blank">
@@ -97,16 +104,16 @@ const Countries = () => {
               <div class="px-3">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <Image src={trekkar1} class="d-block w-100" alt="..." />
+                    <Image src={c1} class="d-block w-100" alt="..." />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={trekkar2} class="d-block w-100" alt="..." />
+                    <Image src={c2} class="d-block w-100" alt="..." />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={trekkar3} class="d-block w-100" alt="..." />
+                    <Image src={c3} class="d-block w-100" alt="..." />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={trekkar4} class="d-block w-100" alt="..." />
+                    <Image src={c4} class="d-block w-100" alt="..." />
                   </Carousel.Item>
                 </Carousel>
               </div>

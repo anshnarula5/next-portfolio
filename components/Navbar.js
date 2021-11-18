@@ -1,17 +1,17 @@
-import React from "react";
-import Link from "next/link"
+import React, { useState } from "react";
+import DarkModeToggle from "react-dark-mode-toggle";
 
-const Navbar = () => {
+const Navbar = ({mode}) => {
+  const [isDarkMode, setIsDarkMode] = useState(() => false);
+  mode(isDarkMode)
   return (
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top"
-      style={{backgroundColor : "#002855"}}
+      style={{ backgroundColor: "#002855" }}
     >
       <div class="container d-flex flex-row justify-content-around align-items-center">
         <div>
-          <a class="navbar-brand">
-            {" <Ansh Narula />"}
-          </a>
+          <a class="navbar-brand">{" <Ansh Narula />"}</a>
         </div>
         <div>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -41,7 +41,13 @@ const Navbar = () => {
                   Connect
                 </a>
               </li>
+               
             </ul>
+            <DarkModeToggle
+                  onChange={setIsDarkMode}
+                  checked={isDarkMode}
+                  size={60}
+                />
           </div>
         </div>
       </div>

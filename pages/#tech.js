@@ -35,32 +35,32 @@ const Tech = () => {
     AOS.init();
   }, [])
   return (
-    <section id="tech"  style={{ height: "90vh" }} >
+    <section id="tech">
       <div class="row text-center ">
         <div class="col-md-7 order-md-1 px-3 mt-5">
           <h1 class="text-center display-4 my-5">My Tech Stack</h1>
           <div class="stacks row "  >
-            <Skill name="Javascript" width = " 3rem" img={js} />
-            <Skill name="Express" width = " 3rem" img={express} />
-            <Skill name="Node.js" width = " 4rem" img={nodejs} />
-            <Skill name="MongoDB" width = " 3rem" img={mongodb} />
-            <Skill name="HTML5" width = " 3rem" img={html5} />
-            <Skill name="CSS#" width = " 3rem" img={css3} />
-            <Skill name="SCSS" width = " 3rem" img={sass} />
-            <Skill name="MaterialUI" width = " 3rem" img={materialui} />
-            <Skill name="Redux" width = " 3rem" img={redux1} />
-            <Skill name="Bootstrap" width = " 3rem" img={bootstrap} />
-            <Skill name="Tailwind" width = " 4rem" img={tailwindcss} />
-            <Skill name="Ejs" width = " 3rem" img={ejs} />
-            <Skill name="Git" width = " 3rem" img={git} />
-            <Skill name="Github" width = " 3rem" img={github} />
-            <Skill name="Heroku" width = " 3rem" img={heroku} />
-            <Skill name="Netlify" width = " 3rem" img={net} />
-            <Skill name="JSON" width = " 3rem" img={json} />
-            <Skill name="Axios" width = " 5rem" mt = {3}img={axios} />
-            <Skill name="JWT" width = " 3rem" img={jwt} />
-            <Skill name="Chartjs" width = " 3rem" img={chartjs} />
-            <Skill name="Postman" width = " 3rem" img={postman} />
+            <Skill name="Javascript" width = " 4rem" img={js} />
+            <Skill name="Express" width = " 4rem" img={express} />
+            <Skill name="Node.js" width = " 5rem" img={nodejs} />
+            <Skill name="MongoDB" width = " 4rem" img={mongodb} />
+            <Skill name="HTML5" width = " 4rem" img={html5} />
+            <Skill name="CSS#" width = " 4rem" img={css3} />
+            <Skill name="SCSS" width = " 4rem" img={sass} />
+            <Skill name="MaterialUI" width = " 4rem" img={materialui} />
+            <Skill name="Redux" width = " 4rem" img={redux1} />
+            <Skill name="Bootstrap" width = " 4rem" img={bootstrap} />
+            <Skill name="Tailwind" width = " 5rem" img={tailwindcss} />
+            <Skill name="Ejs" width = " 4rem" img={ejs} />
+            <Skill name="Git" width = " 4rem" img={git} />
+            <Skill name="Github" width = " 4rem" img={github} />
+            <Skill name="Heroku" width = " 4rem" img={heroku} />
+            <Skill name="Netlify" width = " 4rem" img={net} />
+            <Skill name="JSON" width = " 4rem" img={json} />
+            <Skill name="Axios" width = " 6rem" mt = {3}img={axios} />
+            <Skill name="JWT" width = " 4rem" img={jwt} />
+            <Skill name="Chartjs" width = " 4rem" img={chartjs} />
+            <Skill name="Postman" width = " 4rem" img={postman} />
           </div>
         </div>
         <div class="col-md-5 order-md-12 mt-auto" >

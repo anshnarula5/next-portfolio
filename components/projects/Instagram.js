@@ -65,16 +65,16 @@ const Instagram = ({ isDarkMode }) => {
           <div className="row ">
             <div className=" col-md-6 mt-5 px-5 ">
               <div className="pl-5">
-                A<Blue>Mern</Blue> application where you can <Blue>add</Blue>{" "}
+                A<Blue>Mern</Blue> application where you can <Blue>add</Blue>
                 posts, <Blue>like</Blue> posts, <Blue>comment</Blue> on a post,
                 like a comment, and other<Blue>CRUD</Blue> functionalities. User
                 can also<Blue>follow</Blue>/unfollow each other and can
                 <Blue>interact</Blue>
-                with their posts This web application is fully{" "}
+                with their posts This web application is fully
                 <Blue>authenticated</Blue> with the use of <Blue>JWT</Blue>.
                 Front end is made with <Blue>react</Blue> where state management
                 is done using<Blue>redux</Blue>. <Blue>Bootstrap</Blue>
-                is used for app design. Backend is managed using{" "}
+                is used for app design. Backend is managed using
                 <Blue>express</Blue> and <Blue>node.js</Blue> and data is stored
                 in <Blue>Mongodb</Blue>.
                 <h3 className="mt-5 text-center display-8">Tech used</h3>

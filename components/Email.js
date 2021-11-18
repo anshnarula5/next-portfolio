@@ -42,13 +42,13 @@ const Email = () => {
                 <h1>Links</h1>
                 <div className="d-flex  mt-5 d-flex justify-content-evenly px-5">
                     <div className = "">
-                    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="40rem" />
+                    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="40rem" alt = "icon"/>
                     </div>
                     <div className = "">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" width="40rem" />
+                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" width="40rem" alt = "icon" />
                     </div>
                     <div className = "">
-                    <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" width="40rem"/>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" width="40rem" alt = "icon"/>
                     </div>
                     {/* <div className = "">
                     <img src="https://img.icons8.com/ios-filled/50/000000/mail.png" width="40rem"/>
@@ -59,19 +59,19 @@ const Email = () => {
             <h1 className = "my-5">Say Hi</h1>
             <form id = "form" onSubmit = {sendEmail}>
                 <div className="row mb-3">
-                    <label for="inputEmail3" className="col-sm-2 col-form-label">Name</label>
+                    <label  className="col-sm-2 col-form-label">Name</label>
                     <div className="col-sm-10">
                     <input value = {username} onChange = {handleChange} name = "username" type="text" className="form-control" id="inputEmail3" style = {{backgroundColor : "transparent", color  :"white"}} />
                     </div>
                 </div>
                 <div className="row mb-3">
-                    <label for="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+                    <label  className="col-sm-2 col-form-label">Email</label>
                     <div className="col-sm-10">
                     <input value = {email} onChange = {handleChange} name = "email" type="email" className="form-control" id="inputEmail3" style = {{backgroundColor : "transparent", color  :"white"}} />
                     </div>
                 </div>
                 <div className="row mb-3">
-                    <label for="inputPassword3" className="col-sm-2 col-form-label">Message</label>
+                    <label  className="col-sm-2 col-form-label">Message</label>
                     <div className="col-sm-10">
                     <textarea value = {message} onChange = {handleChange} name = "message" type="text" rows = "4" className="form-control" id="inputPassword3"  style = {{backgroundColor : "transparent", color  :"white"}} />
                     </div>

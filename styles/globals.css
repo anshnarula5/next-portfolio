@@ -7,10 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.main {
-  padding-top: 50px;
-  min-height: 100vh;
-}
+
 
 a {
   text-decoration: none;
@@ -96,4 +93,26 @@ a {
 div{
   margin: 0%;
   padding: 0;
+}
+
+.skill{
+  width: 4rem;
+}
+.empty{
+  opacity: 0;
+}
+
+@media screen and (max-width : 500px){
+  .main{
+    margin-top: 70px;
+  }
+  .skill{
+    width: 3rem;
+  }
+  .texta{
+    opacity: 0;
+  }
+  .hide:hover .texta{
+    opacity: 1;
+  }
 }

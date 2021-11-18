@@ -6,8 +6,10 @@ import Trekkar from "../components/projects/Trekkar";
 const Projects = ({isDarkMode}) => {
   return (
     <div id="projects" class = "mt-5">
-      <div classname = "mt-5">emptu</div>
-      <div classname = "mt-5">emptu</div>
+      <div className="empty">
+      <div classname = "mt-5 ">emptu</div>
+      <div classname = "mt-5 ">emptu</div>
+      </div>
       <h1 class="text-center display-4 mt-5">Projects</h1>
       <Instagram  isDarkMode = {isDarkMode}/>
       <Trekkar isDarkMode = {isDarkMode} />

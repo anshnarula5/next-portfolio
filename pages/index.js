@@ -24,7 +24,7 @@ export default function Home() {
         <About />
         <Tech />
         <Projects isDarkMode={isDarkMode} />
-        <Connect />
+        <Connect  isDarkMode={isDarkMode} />
       </div>
     </>
   );

@@ -1,10 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import code from "../display/code.svg";
+import first from "../bg/first.svg";
+import styled from "styled-components";
 
 const About = () => {
+  // const Contain = styled.div`
+  //   background-image : url("${first}");
+  //   background-position: bottom;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   height: 100%;
+  // `;
   return (
-    <section id="about">
+    <section id="about" >
       <div className="row text-center about ">
         <div className="info col-md-6 col-12 my-auto">
           <h1 className="display-4 mb-4">Hi, I am Ansh Narula</h1>
@@ -20,7 +29,7 @@ const About = () => {
           <Image src={code} width="500" />
         </div>
       </div>
-    </section>
+      </section>
   );
 };
 

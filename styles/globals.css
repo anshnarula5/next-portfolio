@@ -102,7 +102,7 @@ div{
   opacity: 0;
 }
 
-@media screen and (max-width : 500px){
+@media screen and (max-width : 768px){
   .main{
     margin-top: 63px;
   }
@@ -117,6 +117,9 @@ div{
   }
   .hide:hover .texta{
     opacity: 1;
+  }
+  .empty{
+    margin: 0;
   }
 }
 
@@ -133,3 +136,10 @@ div{
     transform:rotate(360deg);
   }
 }
+/* #about{
+  background-image: url("../bg/first.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+} */

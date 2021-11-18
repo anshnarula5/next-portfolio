@@ -28,6 +28,8 @@ import axios from "../../img/axios.svg";
 import jwt from "../../img/jwt-3.svg";
 import chartjs from "../../img/chartjs.svg";
 import postman from "../../img/postman.png";
+import react from "../../img/react.svg"
+
 
 import bg2 from "../../bg/svg2.png";
 import bg from "../../bg/svg.png";
@@ -37,6 +39,7 @@ import c1 from "../../display/c-1.jpg";
 import c2 from "../../display/c-2.jpg";
 import c3 from "../../display/c-3.jpg";
 import c4 from "../../display/c-4.jpg";
+import CButton from "../Button";
 
 const Countries = ({isDarkMode}) => {
   const Blue = styled.span`
@@ -52,13 +55,13 @@ const Countries = ({isDarkMode}) => {
           d="M0,160L30,144C60,128,120,96,180,117.3C240,139,300,213,360,208C420,203,480,117,540,112C600,107,660,181,720,224C780,267,840,277,900,256C960,235,1020,181,1080,181.3C1140,181,1200,235,1260,240C1320,245,1380,203,1410,181.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
       </svg>
-      <div class="bg-fill" style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd"  }}>
+      <div className="bg-fill" style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd"  }}>
         <div>
-          <h2 class="text-center mb-5 display-6">Countries</h2>
-          <div class="row ">
-            <div class=" col-md-6 mt-5 px-5 ">
-              <div class="pl-5">
-                A <pan class="blue">React</pan> application in which user can
+          <h2 className="text-center mb-5 display-6">Countries</h2>
+          <div className="row ">
+            <div className=" col-md-6 mt-5 px-5 ">
+              <div className="pl-5">
+                A <pan className="blue">React</pan> application in which user can
                 interact with
                <Blue>maps</Blue> and country{" "}
                <Blue>flags</Blue>. User can get each country's{" "}
@@ -71,9 +74,10 @@ const Countries = ({isDarkMode}) => {
                <Blue>AmCharts</Blue> is used for displaying maps
                 and
                <Blue>bootstrap</Blue> is used for styling
-                <h3 class=" text-center mt-5">Tech used</h3>
-                <div class="stacks row">
+                <h3 className=" text-center mt-5">Tech used</h3>
+                <div className="stacks row">
                   <Skill name="Javascript" width=" 4rem" img={js} text="text" />
+                  <Skill name="React" width = " 5rem" text="text" img={react} cName="react-logo"/>
                   <Skill name="Redux" width=" 4rem" img={redux1} text="text" />
                   <Skill
                     name="Bootstrap"
@@ -87,33 +91,27 @@ const Countries = ({isDarkMode}) => {
                     img={chartjs}
                     text="text"
                   />
-                  <Skill name="AmChart" width=" 4rem" img={js} text="text" />
                 </div>
               </div>
-              <a href="https://countries-app-a5.netlify.app/" target="_blank">
-                Live Project
-              </a>
-              <a
-                href="https://github.com/anshnarula5/countries1"
-                target="_blank"
-              >
-                Source Code
-              </a>
+              <div className="mt-5 align-right">
+                <CButton  link = "https://countries-app-a5.netlify.app/" text = "Live Project"/>
+                <CButton link = "https://github.com/anshnarula5/countries1" text = "Source Code"/>
+              </div>
             </div>
-            <div class="col-md-6 mt-5">
-              <div class="px-3">
+            <div className="col-md-6 mt-5">
+              <div className="px-3">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <Image src={c1} class="d-block w-100" alt="..." />
+                    <Image src={c1} className="d-block w-100" alt="..." />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={c2} class="d-block w-100" alt="..." />
+                    <Image src={c2} className="d-block w-100" alt="..." />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={c3} class="d-block w-100" alt="..." />
+                    <Image src={c3} className="d-block w-100" alt="..." />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={c4} class="d-block w-100" alt="..." />
+                    <Image src={c4} className="d-block w-100" alt="..." />
                   </Carousel.Item>
                 </Carousel>
               </div>

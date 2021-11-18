@@ -58,25 +58,25 @@ const Email = () => {
             <div className="col-md-6 ">
             <h1 className = "my-5">Say Hi</h1>
             <form id = "form" onSubmit = {sendEmail}>
-                <div class="row mb-3">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
-                    <div class="col-sm-10">
-                    <input value = {username} onChange = {handleChange} name = "username" type="text" class="form-control" id="inputEmail3" style = {{backgroundColor : "transparent", color  :"white"}} />
+                <div className="row mb-3">
+                    <label for="inputEmail3" className="col-sm-2 col-form-label">Name</label>
+                    <div className="col-sm-10">
+                    <input value = {username} onChange = {handleChange} name = "username" type="text" className="form-control" id="inputEmail3" style = {{backgroundColor : "transparent", color  :"white"}} />
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                    <input value = {email} onChange = {handleChange} name = "email" type="email" class="form-control" id="inputEmail3" style = {{backgroundColor : "transparent", color  :"white"}} />
+                <div className="row mb-3">
+                    <label for="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+                    <div className="col-sm-10">
+                    <input value = {email} onChange = {handleChange} name = "email" type="email" className="form-control" id="inputEmail3" style = {{backgroundColor : "transparent", color  :"white"}} />
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Message</label>
-                    <div class="col-sm-10">
-                    <textarea value = {message} onChange = {handleChange} name = "message" type="text" rows = "4" class="form-control" id="inputPassword3"  style = {{backgroundColor : "transparent", color  :"white"}} />
+                <div className="row mb-3">
+                    <label for="inputPassword3" className="col-sm-2 col-form-label">Message</label>
+                    <div className="col-sm-10">
+                    <textarea value = {message} onChange = {handleChange} name = "message" type="text" rows = "4" className="form-control" id="inputPassword3"  style = {{backgroundColor : "transparent", color  :"white"}} />
                     </div>
                 </div>
-                <button type="submit" class="btn btn-outline-primary ">Send</button>
+                <button type="submit" className="btn btn-outline-primary ">Send</button>
                 </form>
             </div>
         </div>

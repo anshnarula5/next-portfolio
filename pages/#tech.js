@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import Skill from "../components/Skill";
+import react from "../img/react.svg"
 import js from "../img/javascript.svg";
 import  nodejs  from "../img/nodejs.svg";
 import  express  from "../img/express.svg";
@@ -36,12 +37,13 @@ const Tech = () => {
   }, [])
   return (
     <section id="tech">
-      <div class="row text-center ">
-        <div class="col-md-7 order-md-1 px-3 mt-5">
-          <h1 class="text-center display-4 my-5">My Tech Stack</h1>
-          <div class="stacks row "  >
+      <div className="row text-center ">
+        <div className="col-md-7 order-md-1 px-3 mt-5">
+          <h1 className="text-center display-4 my-5">My Tech Stack</h1>
+          <div className="stacks row "  > 
             <Skill name="Javascript" width = " 4rem" img={js} />
             <Skill name="Express" width = " 4rem" img={express} />
+            <Skill name="React" width = " 6rem" img={react} cName="react-logo"/>
             <Skill name="Node.js" width = " 5rem" img={nodejs} />
             <Skill name="MongoDB" width = " 4rem" img={mongodb} />
             <Skill name="HTML5" width = " 4rem" img={html5} />
@@ -63,7 +65,7 @@ const Tech = () => {
             <Skill name="Postman" width = " 4rem" img={postman} />
           </div>
         </div>
-        <div class="col-md-5 order-md-12 mt-auto" >
+        <div className="col-md-5 order-md-12 mt-auto" >
           <Image src={code} alt="" layout="responsive" />
         </div>
       </div>

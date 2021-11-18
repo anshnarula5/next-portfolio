@@ -4,19 +4,19 @@ import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 
 const Navbar = ({ mode }) => {
-  const [isDarkMode, setIsDarkMode] = useState(() => false);
+  const [isDarkMode, setIsDarkMode] = useState(() => true);
   const [visible, setVisible] = useState(false);
   mode(isDarkMode);
   return (
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top"
+      className="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top"
       style={{ backgroundColor: "#002855" }}
     >
-      <div class="container d-flex flex-row justify-content-around align-items-center">
+      <div className="container d-flex flex-row justify-content-around align-items-center">
           <div>
-            <a class="navbar-brand mr-5">{" <Ansh Narula />"}</a>
+            <a className="navbar-brand mr-5">{" <Ansh Narula />"}</a>
           </div>
-          <div class="navbar-toggler">
+          <div className="navbar-toggler">
             <DarkModeToggle
               onChange={setIsDarkMode}
               checked={isDarkMode}
@@ -24,29 +24,29 @@ const Navbar = ({ mode }) => {
             />
           </div>
           <div
-            class="collapse navbar-collapse mx-auto"
+            className="collapse navbar-collapse mx-auto"
             id="navbarSupportedContent"
             
           >
-            <ul class="navbar-nav  me-auto ">
-              <li class="nav-item">
-                <a href="#about" class="nav-link mx-5">
+            <ul className="navbar-nav  me-auto ">
+              <li className="nav-item">
+                <a href="#about" className="nav-link mx-5">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="#tech" class="nav-link mx-5">
+              <li className="nav-item">
+                <a href="#tech" className="nav-link mx-5">
                   Tech Stack
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="#projects" class="nav-link mx-5">
+              <li className="nav-item">
+                <a href="#projects" className="nav-link mx-5">
                   Projects
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a href="#connect" class="nav-link mx-5">
+              <li className="nav-item">
+                <a href="#connect" className="nav-link mx-5">
                   Connect
                 </a>
               </li>

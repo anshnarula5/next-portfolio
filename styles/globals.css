@@ -119,3 +119,17 @@ div{
     opacity: 1;
   }
 }
+
+.react-logo{
+  animation-name:rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 600rem;
+}
+@keyframes rotate{
+
+  100%{
+    transform:rotate(360deg);
+  }
+}

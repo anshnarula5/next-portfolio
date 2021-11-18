@@ -5,7 +5,7 @@ import Tilt from "./Tilt";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
-const Skill = ({ name, img, width, mt = 2, text = "texta", delay = 50 }) => {
+const Skill = ({ name, img, width, mt = 2, text = "texta", delay = 50, cName = ""}) => {
   const options = {
     scale: 1.2,
     speed: 600,
@@ -15,14 +15,14 @@ const Skill = ({ name, img, width, mt = 2, text = "texta", delay = 50 }) => {
     AOS.init();
   }, []);
   return (
-    <span class="col-md-2 col-3 mt-3 d-flex flex-column align-items-center d-inline stack hide ">
-      <span class={text}>{name}</span>{" "}
+    <span className="col-md-2 col-3 mt-3 d-flex flex-column align-items-center d-inline stack hide ">
+      <span className={text}>{name}</span>{" "}
       <Tilt style={{ transformStyle: "preserve-3d" }} options={options}>
         <div
-          style={{ transform: "translateZ(30px)" }}
-          className = "skill"
+          style={{ transform: "translateZ(30px)", width : width }}
+          className = "skill mt-1"
         >
-          <Image src={img} alt="" layout="responsive" />
+          <Image src={img}  alt="" layout="responsive" className ={cName}/>
         </div>
       </Tilt>
     </span>

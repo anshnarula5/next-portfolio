@@ -1,5 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import Skill from "../components/Skill";
 import js from "../img/javascript.svg";
@@ -28,12 +31,15 @@ import  postman  from "../img/postman.png";
 import code from "../display/2.svg";
 
 const Tech = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <section id="tech" style = {{height : "90vh"}}>
+    <section id="tech" >
       <div class="row text-center ">
-        <div class="col-md-7 order-md-1 px-3">
+        <div class="col-md-7 order-md-1 px-3" data-aos="fade-left">
           <h1 class="text-center display-4 my-5">My Tech Stack</h1>
-          <div class="stacks row ">
+          <div class="stacks row " >
             <Skill name="Javascript" width = " 3rem" img={js} />
             <Skill name="Express" width = " 3rem" img={express} />
             <Skill name="Node.js" width = " 4rem" img={nodejs} />
@@ -57,7 +63,7 @@ const Tech = () => {
             <Skill name="Postman" width = " 3rem" img={postman} />
           </div>
         </div>
-        <div class="col-md-5 order-md-12 mt-auto">
+        <div class="col-md-5 order-md-12 mt-auto"  data-aos="fade-right">
           <Image src={code} alt="" layout="responsive" />
         </div>
       </div>

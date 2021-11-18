@@ -4,7 +4,7 @@ import code from "../display/code.svg";
 
 const About = () => {
   return (
-    <section id="about" style={{ height: "100%" }}>
+    <section id="about">
       <div class="row text-center about ">
         <div class="info col-md-6 col-12 my-auto">
           <h1 class="display-4 mb-4">Hi, I am Ansh Narula</h1>

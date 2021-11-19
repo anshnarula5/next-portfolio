@@ -5,38 +5,38 @@ import { Carousel } from "react-bootstrap";
 
 import styled from "styled-components";
 
-import js from "../../img/javascript.svg";
-import nodejs from "../../img/nodejs.svg";
-import express from "../../img/express.svg";
-import mongodb from "../../img/mongodb.svg";
-import html5 from "../../img/html5.png";
-import css3 from "../../img/css-3.png";
-import sass from "../../img/sass.svg";
-import materialui from "../../img/materialui.svg";
-import redux1 from "../../img/redux1.svg";
-import bootstrap from "../../img/bootstrap.svg";
-import tailwindcss from "../../img/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg";
-import bulma from "../../img/bulma-seeklogo.com.svg";
-import ejs from "../../img/ejs.svg";
-import git from "../../img/git.svg";
-import github from "../../img/github.svg";
-import heroku from "../../img/heroku.png";
-import net from "../../img/net.svg";
-import json from "../../img/Papirus-Team-Papirus-Mimetypes-App-json.svg";
-import axios from "../../img/axios.svg";
-import jwt from "../../img/jwt-3.svg";
-import chartjs from "../../img/chartjs.svg";
-import postman from "../../img/postman.png";
+import js from "/img/javascript.svg";
+import nodejs from "/img/nodejs.svg";
+import express from "/img/express.svg";
+import mongodb from "/img/mongodb.svg";
+import html5 from "/img/html5.png";
+import css3 from "/img/css-3.png";
+import sass from "/img/sass.svg";
+import materialui from "/img/materialui.svg";
+import redux1 from "/img/redux1.svg";
+import bootstrap from "/img/bootstrap.svg";
+import tailwindcss from "/img/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg";
+import bulma from "/img/bulma-seeklogo.com.svg";
+import ejs from "/img/ejs.svg";
+import git from "/img/git.svg";
+import github from "/img/github.svg";
+import heroku from "/img/heroku.png";
+import net from "/img/net.svg";
+import json from "/img/Papirus-Team-Papirus-Mimetypes-App-json.svg";
+import axios from "/img/axios.svg";
+import jwt from "/img/jwt-3.svg";
+import chartjs from "/img/chartjs.svg";
+import postman from "/img/postman.png";
 
-import react from "../../img/react.svg";
+import react from "/img/react.svg";
 
-import bg from "../../bg/svg.svg";
-import light1 from "../../bg/light1.svg";
+import bg from "/bg/svg.svg";
+import light1 from "/bg/light1.svg";
 
-import insta1 from "../../display/insta-1.jpg";
-import insta2 from "../../display/insta-2.jpg";
-import insta3 from "../../display/insta-3.jpg";
-import insta4 from "../../display/insta-4.jpg";
+import insta1 from "/display/insta-1.jpg";
+import insta2 from "/display/insta-2.jpg";
+import insta3 from "/display/insta-3.jpg";
+import insta4 from "/display/insta-4.jpg";
 import CButton from "../Button";
 
 const Instagram = ({ isDarkMode }) => {

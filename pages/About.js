@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import code from "../display/code.svg";
+import code from "/display/code.svg";
 import styled from "styled-components";
 
 const About = () => {
@@ -12,10 +12,10 @@ const About = () => {
   //   height: 100%;
   // `;
   return (
-    <section id="about" >
+    <section id="about">
       <div className="row text-center about ">
         <div className="info col-md-6 col-12 my-auto">
-          <h1 className="display-4 mb-4">Hi, I am Ansh Narula</h1>
+          <h1 className="display-4 my-5">Hi, I am Ansh Narula</h1>
           <h4>I am a full stack devloper</h4>
           <p className="px-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
@@ -25,10 +25,10 @@ const About = () => {
           </p>
         </div>
         <div className="col-md-6 my-auto">
-          <Image alt = "coder" src={code} width="500" />
+          <Image alt="coder" src={code} width="600" className= "image1" />
         </div>
       </div>
-      </section>
+    </section>
   );
 };
 

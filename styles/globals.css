@@ -106,6 +106,9 @@ div{
   .main{
     margin-top: 63px;
   }
+  .image1{
+    width: 50px !important; 
+  }
   .skill{
     width: 3rem;
   }
@@ -119,7 +122,7 @@ div{
     opacity: 1;
   }
   .empty{
-    margin: 0;
+   display: none;
   }
 }
 

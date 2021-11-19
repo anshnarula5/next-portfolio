@@ -50,7 +50,7 @@ const Trekkar = ({ isDarkMode }) => {
            <Image src = {isDarkMode ? bg2 : light2} layout = "responsive" />
       <h2 className="text-center mb-5 display-6">Trekkar</h2>
       <div className="row ">
-        <div className=" col-md-6 mt-5 px-3 ">
+        <div className=" col-md-6 my-5 px-3 ">
           <div className="px-3">
             <Carousel variant="dark">
               <Carousel.Item>
@@ -98,7 +98,7 @@ const Trekkar = ({ isDarkMode }) => {
               <Skill name="Mapbox" width="4rem" img={mapbox} text="text" />
             </div>
           </div>
-          <div className="mt-5 align-right">
+          <div className="my-5 align-right">
             <CButton
               link="https://trekkar.herokuapp.com/"
               text="Live Project"

@@ -87,12 +87,12 @@ const Countries = ({isDarkMode}) => {
                   />
                 </div>
               </div>
-              <div className="mt-5 align-right">
+              <div className="my-5 ">
                 <CButton  link = "https://countries-app-a5.netlify.app/" text = "Live Project"/>
                 <CButton link = "https://github.com/anshnarula5/countries1" text = "Source Code"/>
               </div>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 my-5">
               <div className="px-3">
                 <Carousel variant="dark">
                   <Carousel.Item>

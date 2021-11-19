@@ -3,11 +3,17 @@ import emailjs from "emailjs-com"
 import {Toast} from 'primereact/toast';
 import 'primereact/resources/themes/saga-green/theme.css';
 import 'primereact/resources/primereact.min.css';
+import Tilt from './Tilt';
 
 
 
 const Email = () => {
     const [formData, setFormData] = useState({username: "", message: "", email: ""})
+    const options = {
+        scale: 1.2,
+        speed: 600,
+        max: 15,
+      };
     const toast = useRef(null)
     const {username, message, email} = formData
     const handleChange = (e) => {
@@ -39,17 +45,17 @@ const Email = () => {
         <div style={{backgroundColor: "#022b3a", color: "white"}} className="row px-5  text-center">
             <Toast position = "bottom-center" ref={toast} /> 
             <div className="col-md-6 px-5">
-                <h1>Links</h1>
+                <h1 className = "mt-5">Links</h1>
                 <div className="d-flex  mt-5 d-flex justify-content-evenly px-5">
-                    <div className = "">
+                    <Tilt style={{ transformStyle: "preserve-3d" }} options={options}>
                     <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="40rem" alt = "icon"/>
-                    </div>
-                    <div className = "">
+                    </Tilt>
+                    <Tilt style={{ transformStyle: "preserve-3d" }} options={options}>
                         <img src="https://img.icons8.com/ios-filled/50/000000/github.png" width="40rem" alt = "icon" />
-                    </div>
-                    <div className = "">
+                    </Tilt>
+                    <Tilt style={{ transformStyle: "preserve-3d" }} options={options}>
                     <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" width="40rem" alt = "icon"/>
-                    </div>
+                    </Tilt>
                     {/* <div className = "">
                     <img src="https://img.icons8.com/ios-filled/50/000000/mail.png" width="40rem"/>
                     </div> */}

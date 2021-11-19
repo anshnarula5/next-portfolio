@@ -32,7 +32,8 @@ import react from "../../img/react.svg"
 
 
 import bg2 from "../../bg/svg2.png";
-import bg from "../../bg/svg.png";
+import bg from "../../bg/svg.svg";
+import light1 from "../../bg/light1.svg";
 import Skill from "../Skill";
 
 import c1 from "../../display/c-1.jpg";
@@ -48,13 +49,7 @@ const Countries = ({isDarkMode}) => {
   `;
   return (
     <>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill={isDarkMode ? "#04395e" : "#e3f2fd"}
-          fillOpacity="1"
-          d="M0,160L30,144C60,128,120,96,180,117.3C240,139,300,213,360,208C420,203,480,117,540,112C600,107,660,181,720,224C780,267,840,277,900,256C960,235,1020,181,1080,181.3C1140,181,1200,235,1260,240C1320,245,1380,203,1410,181.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
+      <Image src={isDarkMode ? bg : light1} layout = "responsive"/>
       <div className="bg-fill" style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd"  }}>
         <div>
           <h2 className="text-center mb-5 display-6">Countries</h2>

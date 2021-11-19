@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import bg2 from "../bg/svg2.svg"
-import light2 from "../bg/light2.svg"
-import last from "../bg/last.svg";
-import Email from "../components/Email";
+import bg2 from "/bg/svg2.svg"
+import light2 from "/bg/light2.svg"
+import last from "/bg/last.svg";
+import Email from "../Email";
 
 const Connect = ({ isDarkMode }) => {
   return (

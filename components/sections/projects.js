@@ -1,7 +1,7 @@
 import React from "react";
-import Countries from "../components/projects/Countries";
-import Instagram from "../components/projects/Instagram";
-import Trekkar from "../components/projects/Trekkar";
+import Countries from "../projects/Countries";
+import Instagram from "../projects/Instagram";
+import Trekkar from "../projects/Trekkar";
 
 const Projects = ({isDarkMode}) => {
   return (

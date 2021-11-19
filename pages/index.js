@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import About from "./About";
-import Connect from "./connect";
-import Projects from "./projects";
-import Tech from "./tech";
+import About from "../components/sections/About";
+import Connect from "../components/sections/connect";
+import Projects from "../components/sections/projects";
+import Tech from "../components/sections/tech";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);

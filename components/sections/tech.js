@@ -4,7 +4,7 @@ import Image from "next/image";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
-import Skill from "../components/Skill";
+import Skill from "../Skill";
 import react from "/img/react.svg"
 import js from "/img/javascript.svg";
 import  nodejs  from "/img/nodejs.svg";
@@ -29,7 +29,7 @@ import  jwt  from "/img/jwt-3.svg";
 import  chartjs  from "/img/chartjs.svg";
 import  postman  from "/img/postman.png";
 
-import code from "../display/2.svg";
+import code from "/display/2.svg";
 
 const Tech = () => {
   useEffect(() => {

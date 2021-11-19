@@ -21,7 +21,6 @@ import  bulma  from "/img/bulma-seeklogo.com.svg";
 import  ejs  from "/img/ejs.svg";
 import  git  from "/img/git.svg";
 import  github  from "/img/github.svg";
-import  heroku  from "/img/heroku.png";
 import  net  from "/img/net.svg";
 import  json  from "/img/Papirus-Team-Papirus-Mimetypes-App-json.svg";
 import  axios  from "/img/axios.svg";
@@ -56,7 +55,6 @@ const Tech = () => {
             <Skill name="Ejs" width = " 4rem" img={ejs} />
             <Skill name="Git" width = " 4rem" img={git} />
             <Skill name="Github" width = " 4rem" img={github} />
-            <Skill name="Heroku" width = " 4rem" img={heroku} />
             <Skill name="Netlify" width = " 4rem" img={net} />
             <Skill name="JSON" width = " 4rem" img={json} />
             <Skill name="Axios" width = " 6rem" mt = {3}img={axios} />

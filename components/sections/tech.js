@@ -17,7 +17,6 @@ import  materialui  from "/img/materialui.svg";
 import  redux1  from "/img/redux1.svg";
 import  bootstrap  from "/img/bootstrap.svg";
 import  tailwindcss  from "/img/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg";
-import  bulma  from "/img/bulma-seeklogo.com.svg";
 import  ejs  from "/img/ejs.svg";
 import  git  from "/img/git.svg";
 import  github  from "/img/github.svg";
@@ -63,7 +62,7 @@ const Tech = () => {
             <Skill name="Postman" width = " 4rem" img={postman} />
           </div>
         </div>
-        <div className="col-md-5 order-md-12 mt-auto" >
+        <div className="col-md-5 order-md-12 mt-auto image2" >
           <Image src={code} alt="" layout="responsive" />
         </div>
       </div>

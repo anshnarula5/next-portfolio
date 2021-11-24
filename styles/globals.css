@@ -124,6 +124,9 @@ div{
   .empty{
    display: none;
   }
+  .image2{
+    display: none;
+  }
 }
 
 .react-logo{

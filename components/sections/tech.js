@@ -10,6 +10,8 @@ import js from "/img/javascript.svg";
 import  nodejs  from "/img/nodejs.svg";
 import  express  from "/img/express.svg";
 import  mongodb  from "/img/mongodb.svg";
+import  next  from "/img/nextjs.svg";
+import  firebase  from "/img/firebase.svg";
 import  html5  from "/img/html5.png";
 import  css3  from "/img/css-3.png";
 import  sass  from "/img/sass.svg";
@@ -20,6 +22,8 @@ import  tailwindcss  from "/img/tailwindcss-mark.cb8046c163f77190406dfbf4dec8984
 import  ejs  from "/img/ejs.svg";
 import  git  from "/img/git.svg";
 import  github  from "/img/github.svg";
+import  socketio  from "/img/socketio.svg";
+import  vercel  from "/img/vercel.svg";
 import  net  from "/img/net.svg";
 import  json  from "/img/Papirus-Team-Papirus-Mimetypes-App-json.svg";
 import  axios  from "/img/axios.svg";
@@ -44,6 +48,9 @@ const Tech = () => {
             <Skill name="React" width = " 6rem" img={react} cName="react-logo"/>
             <Skill name="Node.js" width = " 5rem" img={nodejs} />
             <Skill name="MongoDB" width = " 4rem" img={mongodb} />
+            <Skill name="Nextjs" width = " 5rem" img={next} />
+            <Skill name="Firebase" width = " 3rem" img={firebase} />
+            <Skill name="Socket.io" width = " 4rem" img={socketio} />
             <Skill name="HTML5" width = " 4rem" img={html5} />
             <Skill name="CSS#" width = " 4rem" img={css3} />
             <Skill name="SCSS" width = " 4rem" img={sass} />
@@ -54,11 +61,9 @@ const Tech = () => {
             <Skill name="Ejs" width = " 4rem" img={ejs} />
             <Skill name="Git" width = " 4rem" img={git} />
             <Skill name="Github" width = " 4rem" img={github} />
-            <Skill name="Netlify" width = " 4rem" img={net} />
-            <Skill name="JSON" width = " 4rem" img={json} />
+            <Skill name="Vercel" width = " 4rem" img={vercel} />
             <Skill name="Axios" width = " 6rem" mt = {3}img={axios} />
             <Skill name="JWT" width = " 4rem" img={jwt} />
-            <Skill name="Chartjs" width = " 4rem" img={chartjs} />
             <Skill name="Postman" width = " 4rem" img={postman} />
           </div>
         </div>

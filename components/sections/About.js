@@ -19,10 +19,8 @@ const About = () => {
           <h1 className="display-4 my-5">Hi, I am Ansh Narula</h1>
           <h4>I am a full stack devloper</h4>
           <p className="px-5">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            repellendus ab. Laborum quod quo possimus. Vero cumque error dolorem
-            laboriosam porro mollitia animi alias, eum officiis, cum amet magni
-            in!
+            I am a learner. Like to build web apps using react and nodejs.
+            Creative by nature, hard worker by attitude.
           </p>
         </div>
         <div className="col-md-6 my-auto">

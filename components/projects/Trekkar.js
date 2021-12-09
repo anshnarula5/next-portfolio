@@ -30,7 +30,8 @@ import postman from "/img/postman.png";
 
 import bg2 from "/bg/svg2.svg";
 import light2 from "/bg/light2.svg";
-import bg from "/bg/svg.png";
+import light from "/bg/light1.svg";
+import bg from "/bg/svg.svg";
 import Skill from "../Skill";
 
 import CButton from "../Button";
@@ -47,7 +48,8 @@ const Trekkar = ({ isDarkMode }) => {
   `;
   return (
     <div className="bg-unfill">
-           <Image src = {isDarkMode ? bg2 : light2} layout = "responsive" />
+           <Image src = {isDarkMode ? bg : light} layout = "responsive" />
+      <div style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd" }}>
       <h2 className="text-center mb-5 display-6">Trekkar</h2>
       <div className="row ">
         <div className=" col-md-6 my-5 px-3 ">
@@ -106,6 +108,7 @@ const Trekkar = ({ isDarkMode }) => {
             <CButton link="https://trekkar.herokuapp.com/" text="Source Code" />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

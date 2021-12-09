@@ -8,7 +8,7 @@ import Email from "../Email";
 const Connect = ({ isDarkMode }) => {
   return (
     <div id = "connect">
-      <Image alt = "svg" src={isDarkMode ? bg2 : light2} layout="responsive" />
+      {/* <Image alt = "svg" src={isDarkMode ? bg2 : light2} layout="responsive" /> */}
       <h1  className="text-center display-4 mt-5">Connect with ME!</h1>
       <Image alt = "svg" src={last} layout="responsive" />
       <Email />

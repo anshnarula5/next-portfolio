@@ -31,7 +31,8 @@ import postman from "/img/postman.png";
 import react from "/img/react.svg";
 
 import bg from "/bg/svg.svg";
-import light1 from "/bg/light1.svg";
+import bg2 from "/bg/svg2.svg";
+import light2 from "/bg/light2.svg";
 
 import insta1 from "/display/insta-1.jpg";
 import insta2 from "/display/insta-2.jpg";
@@ -54,9 +55,9 @@ const Instagram = ({ isDarkMode }) => {
   return (
     
     <>
-      <Image src = {isDarkMode ? bg : light1} layout = "responsive" />
+      <Image src = {isDarkMode ? bg2 : light2} layout = "responsive" />
       <div className="bg-fill">
-        <div style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd" }}>
+        <div >
           <h2 className="text-center mb-5 display-6">Instagram Clone</h2>
           <div className="row ">
             <div className=" col-md-6 mt-5 px-5 ">
@@ -107,7 +108,7 @@ const Instagram = ({ isDarkMode }) => {
                 </div>
               </div>
               <div className = "my-5">
-              <CButton  link = "https://instagram-a5.netlify.app/" text = "Live Project"/>
+              <CButton  link = "https://instagam.herokuapp.com/" text = "Live Project"/>
               <CButton link = "https://github.com/anshnarula5/instagram" text = "Source Code"/>
               </div>
               

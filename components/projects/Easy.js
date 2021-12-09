@@ -4,7 +4,6 @@ import { Carousel } from "react-bootstrap";
 
 import styled from "styled-components";
 
-
 import js from "/img/javascript.svg";
 import nodejs from "/img/nodejs.svg";
 import express from "/img/express.svg";
@@ -30,10 +29,10 @@ import postman from "/img/postman.png";
 
 import react from "/img/react.svg";
 
-
 import bg2 from "/bg/svg2.svg";
+import bg from "/bg/svg.svg";
 import light2 from "/bg/light2.svg";
-import bg from "/bg/svg.png";
+import light from "/bg/light1.svg";
 import Skill from "../Skill";
 
 import CButton from "../Button";
@@ -49,10 +48,11 @@ const Easy = ({ isDarkMode }) => {
     font-weight: 900;
   `;
   return (
-    <div className="bg-unfill">
-           <Image src = {isDarkMode ? bg2 : light2} layout = "responsive" />
-      <h2 className="text-center mb-5 display-6">Trekkar</h2>
-      <div className="row ">
+    <div className="bg-unfill" >
+      <Image src={isDarkMode ? bg : light} layout="responsive" />
+      <div style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd" }}>
+      <h2 className="text-center mb-5 display-6">Easy-Buy</h2>
+      <div className="row " >
         <div className=" col-md-6 my-5 px-3 ">
           <div className="px-3">
             <Carousel variant="dark">
@@ -73,49 +73,33 @@ const Easy = ({ isDarkMode }) => {
         </div>
         <div className="col-md-6 mt-5 px-5">
           <div className="pl-5">
-            A full<Blue>CRUD</Blue> web application where user can
-            <Blue>add treks images</Blue> and description that they have been
-            to. Users can<Blue>interact</Blue> with other posts and can{" "}
-            <span className="blue">rate</span> them or
-            <Blue>comment</Blue> on them. Each trek also have a<Blue>map</Blue>{" "}
-            feature which is made using
-            <Blue>mapbox</Blue> api. Authentication is done via
-            <Blue>passport.js</Blue> . Frontend is designed using
-            <Blue>ejs</Blue> and
-            <Blue>bootstrap</Blue>. Backend is managed using
-            <Blue>express</Blue> and
-            <Blue>node.js</Blue> and data is stored in
-            <Blue>Mongodb</Blue>.<h3 className="text-center mt-5">Tech used</h3>
+            Easy-buy is an <Blue> e-commerce</Blue> website. Here users can browse for
+            different product or <Blue> sort</Blue> them by their <Blue>price</Blue> or <Blue>rating</Blue>. Users can
+            also <Blue>filter</Blue> them based on <Blue>categories</Blue> of their preference or on the
+            basis of price. This website also has <Blue>admin</Blue> functionality which has
+            abilities to <Blue>create</Blue> a new product, <Blue>delete</Blue> a product, and also mark a
+            product as <Blue>delivered</Blue>. User can <Blue>pay</Blue> through <Blue>PayPal</Blue> gateway. 
+            <h3 className="text-center mt-5">Tech used</h3>
             <div className="stacks row">
-            <Skill name="Javascript" width=" 4rem" img={js} text="text" />
-                  <Skill
-                    name="React"
-                    width=" 5rem"
-                    text="text"
-                    img={react}
-                    cName="react-logo"
-                  />
-                  <Skill name="Nodejs" width=" 4rem" img={nodejs} text="text" />
-                  <Skill
-                    name="Express"
-                    width=" 4rem"
-                    img={express}
-                    text="text"
-                  />
-                  <Skill
-                    name="MongoDB"
-                    width=" 4rem"
-                    img={mongodb}
-                    text="text"
-                  />
-                  <Skill name="Redux" width=" 4rem" img={redux1} text="text" />
-                  <Skill
-                    name="Bootstrap"
-                    width=" 4rem"
-                    img={bootstrap}
-                    text="text"
-                  />
-                  <Skill name="JWT" width=" 4rem" img={jwt} text="text" />
+              <Skill name="Javascript" width=" 4rem" img={js} text="text" />
+              <Skill
+                name="React"
+                width=" 5rem"
+                text="text"
+                img={react}
+                cName="react-logo"
+              />
+              <Skill name="Nodejs" width=" 4rem" img={nodejs} text="text" />
+              <Skill name="Express" width=" 4rem" img={express} text="text" />
+              <Skill name="MongoDB" width=" 4rem" img={mongodb} text="text" />
+              <Skill name="Redux" width=" 4rem" img={redux1} text="text" />
+              <Skill
+                name="Bootstrap"
+                width=" 4rem"
+                img={bootstrap}
+                text="text"
+              />
+              <Skill name="JWT" width=" 4rem" img={jwt} text="text" />
             </div>
           </div>
           <div className="my-5 align-right">
@@ -123,9 +107,13 @@ const Easy = ({ isDarkMode }) => {
               link="https://easy-buy123.herokuapp.com/"
               text="Live Project"
             />
-            <CButton link="https://github.com/anshnarula5/ecommerce" text="Source Code" />
+            <CButton
+              link="https://github.com/anshnarula5/ecommerce"
+              text="Source Code"
+            />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

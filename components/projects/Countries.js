@@ -30,9 +30,10 @@ import postman from "/img/postman.png";
 import react from "/img/react.svg"
 
 
-import bg2 from "/bg/svg2.png";
+import bg2 from "/bg/svg2.svg";
 import bg from "/bg/svg.svg";
 import light1 from "/bg/light1.svg";
+import light2 from "/bg/light2.svg";
 import Skill from "../Skill";
 
 import c1 from "/display/c-1.jpg";
@@ -48,8 +49,8 @@ const Countries = ({isDarkMode}) => {
   `;
   return (
     <>
-      <Image src={isDarkMode ? bg : light1} layout = "responsive"/>
-      <div className="bg-fill" style={{ backgroundColor: isDarkMode ? "#04395e" : "#e3f2fd"  }}>
+      <Image src={isDarkMode ? bg2 : light2} layout = "responsive"/>
+      <div className="bg-fill" >
         <div>
           <h2 className="text-center mb-5 display-6">Countries</h2>
           <div className="row ">

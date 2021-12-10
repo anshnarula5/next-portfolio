@@ -58,17 +58,17 @@ const Countries = ({isDarkMode}) => {
               <div className="pl-5">
                 A <pan className="blue">React</pan> application in which user can
                 interact with
-               <Blue>maps</Blue> and country
-               <Blue>flags</Blue>. User can get each country`&apos;`s
-               <Blue>information </Blue>either by
-               <Blue>searching</Blue>, by flags or by pointing a
-               <Blue>country</Blue> in map
-               <Blue>Openweathermap</Blue> API is used for
+               <Blue> maps</Blue> and country
+               <Blue> flags</Blue>. User can get each country&apos;s
+               <Blue> information </Blue>either by
+               <Blue> searching</Blue>, by flags or by pointing a
+               <Blue> country</Blue> in map
+               <Blue> Openweathermap</Blue> API is used for
                 providing weather information which is dispayed using
-               <Blue>chart.js</Blue>.
-               <Blue>AmCharts</Blue> is used for displaying maps
+               <Blue> chart.js</Blue>.
+               <Blue> AmCharts</Blue> is used for displaying maps
                 and
-               <Blue>bootstrap</Blue> is used for styling
+               <Blue> bootstrap</Blue> is used for styling
                 <h3 className=" text-center mt-5">Tech used</h3>
                 <div className="stacks row">
                   <Skill name="Javascript" width=" 4rem" img={js} text="text" />

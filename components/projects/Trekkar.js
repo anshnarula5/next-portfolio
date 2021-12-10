@@ -72,19 +72,19 @@ const Trekkar = ({ isDarkMode }) => {
         </div>
         <div className="col-md-6 mt-5 px-5">
           <div className="pl-5">
-            A full<Blue>CRUD</Blue> web application where user can
-            <Blue>add treks images</Blue> and description that they have been
-            to. Users can<Blue>interact</Blue> with other posts and can{" "}
+            A full<Blue> CRUD</Blue> web application where user can
+            <Blue> add treks images</Blue> and description that they have been
+            to. Users can<Blue> interact</Blue> with other posts and can{" "}
             <soan className="blue">rate</soan> them or
-            <Blue>comment</Blue> on them. Each trek also have a<Blue>map</Blue>{" "}
+            <Blue> comment</Blue> on them. Each trek also have a<Blue> map</Blue>{" "}
             feature which is made using
-            <Blue>mapbox</Blue> api. Authentication is done via
-            <Blue>passport.js</Blue> . Frontend is designed using
-            <Blue>ejs</Blue> and
-            <Blue>bootstrap</Blue>. Backend is managed using
-            <Blue>express</Blue> and
-            <Blue>node.js</Blue> and data is stored in
-            <Blue>Mongodb</Blue>.<h3 className="text-center mt-5">Tech used</h3>
+            <Blue> mapbox</Blue> api. Authentication is done via
+            <Blue> passport.js</Blue> . Frontend is designed using
+            <Blue> ejs</Blue> and
+            <Blue> bootstrap</Blue>. Backend is managed using
+            <Blue> express</Blue> and
+            <Blue> node.js</Blue> and data is stored in
+            <Blue> Mongodb</Blue>.<h3 className="text-center mt-5">Tech used</h3>
             <div className="stacks row">
               <Skill name="Javascript" width=" 4rem" img={js} text="text" />
               <Skill name="Nodejs" width=" 4rem" img={nodejs} text="text" />

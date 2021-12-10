@@ -34,20 +34,13 @@ import bg from "/bg/svg.svg";
 import bg2 from "/bg/svg2.svg";
 import light2 from "/bg/light2.svg";
 
-import insta1 from "/display/insta-1.jpg";
-import insta2 from "/display/insta-2.jpg";
-import insta3 from "/display/insta-3.jpg";
-import insta4 from "/display/insta-4.jpg";
+import insta1 from "/display/instagram-1.jpg";
+import insta2 from "/display/instagram-2.jpg";
+import insta3 from "/display/instagram-3.jpg";
+import insta4 from "/display/instagram-4.jpg";
 import CButton from "../Button";
 
 const Instagram = ({ isDarkMode }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   const Blue = styled.span`
     color: ${isDarkMode ? "yellow" : "#023e8a"};
     font-weight: 900;
@@ -62,18 +55,18 @@ const Instagram = ({ isDarkMode }) => {
           <div className="row ">
             <div className=" col-md-6 mt-5 px-5 ">
               <div className="pl-5">
-                A<Blue>Mern</Blue> application where you can <Blue>add</Blue>
-                posts, <Blue>like</Blue> posts, <Blue>comment</Blue> on a post,
+                A<Blue> Mern</Blue> application where you can <Blue> add</Blue>
+                posts, <Blue> like</Blue> posts, <Blue> comment</Blue> on a post,
                 like a comment, and other<Blue>CRUD</Blue> functionalities. User
-                can also<Blue>follow</Blue>/unfollow each other and can
-                <Blue>interact</Blue>
+                can also<Blue> follow</Blue> /unfollow each other and can
+                <Blue> interact</Blue>
                 with their posts This web application is fully
-                <Blue>authenticated</Blue> with the use of <Blue>JWT</Blue>.
+                <Blue> authenticated</Blue> with the use of <Blue> JWT</Blue>.
                 Front end is made with <Blue>react</Blue> where state management
-                is done using<Blue>redux</Blue>. <Blue>Bootstrap</Blue>
+                is done using<Blue> redux</Blue>. <Blue> Bootstrap</Blue>
                 is used for app design. Backend is managed using
-                <Blue>express</Blue> and <Blue>node.js</Blue> and data is stored
-                in <Blue>Mongodb</Blue>.
+                <Blue> express</Blue> and <Blue> node.js</Blue> and data is stored
+                in <Blue> Mongodb</Blue>.
                 <h3 className="mt-5 text-center display-8">Tech used</h3>
                 <div className="stacks row ">
                   <Skill name="Javascript" width=" 4rem" img={js} text="text" />

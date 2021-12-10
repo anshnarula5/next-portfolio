@@ -69,6 +69,7 @@ const Email = () => {
               href="www.linkedin.com/in/anshnarula"
               className=" ="
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"
@@ -82,6 +83,7 @@ const Email = () => {
               href="https://github.com/anshnarula5/"
               className=" ="
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/000000/github.png"
@@ -95,6 +97,7 @@ const Email = () => {
               href="https://www.instagram.com/anshnarula5/"
               className=" ="
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"

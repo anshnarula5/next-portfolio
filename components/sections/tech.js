@@ -51,18 +51,18 @@ const Tech = () => {
             <Skill name="Nextjs" width = " 5rem" img={next} />
             <Skill name="Firebase" width = " 3rem" img={firebase} />
             <Skill name="Socket.io" width = " 4rem" img={socketio} />
-            <Skill name="HTML5" width = " 4rem" img={html5} />
-            <Skill name="CSS#" width = " 4rem" img={css3} />
+            {/* <Skill name="HTML5" width = " 4rem" img={html5} /> */}
+            {/* <Skill name="CSS#" width = " 4rem" img={css3} /> */}
             <Skill name="SCSS" width = " 4rem" img={sass} />
             <Skill name="MaterialUI" width = " 4rem" img={materialui} />
             <Skill name="Redux" width = " 4rem" img={redux1} />
             <Skill name="Bootstrap" width = " 4rem" img={bootstrap} />
-            <Skill name="Tailwind" width = " 5rem" img={tailwindcss} />
-            <Skill name="Ejs" width = " 4rem" img={ejs} />
+            {/* <Skill name="Tailwind" width = " 5rem" img={tailwindcss} /> */}
+            {/* <Skill name="Ejs" width = " 4rem" img={ejs} /> */}
             <Skill name="Git" width = " 4rem" img={git} />
             <Skill name="Github" width = " 4rem" img={github} />
-            <Skill name="Vercel" width = " 4rem" img={vercel} />
-            <Skill name="Axios" width = " 6rem" mt = {3}img={axios} />
+            {/* <Skill name="Vercel" width = " 4rem" img={vercel} /> */}
+            {/* <Skill name="Axios" width = " 6rem" mt = {3}img={axios} /> */}
             <Skill name="JWT" width = " 4rem" img={jwt} />
             <Skill name="Postman" width = " 4rem" img={postman} />
           </div>

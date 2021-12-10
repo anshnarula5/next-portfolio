@@ -5,6 +5,7 @@ import Connect from "../components/sections/connect";
 import Projects from "../components/sections/projects";
 import Tech from "../components/sections/tech";
 
+
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const toggleMode = (mode) => {

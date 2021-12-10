@@ -6,7 +6,7 @@ import Trekkar from "../projects/Trekkar";
 
 const Projects = ({isDarkMode}) => {
   return (
-    <div id="projects" className = "mt-5">
+    <div id="projects" className = "my-5">
       <div className="empty">
       <div className = "mt-5 ">emptu</div>
       <div className = "mt-5 ">emptu</div>

@@ -102,14 +102,15 @@ const Easy = ({ isDarkMode }) => {
               <Skill name="JWT" width=" 4rem" img={jwt} text="text" />
             </div>
           </div>
-          <div className="my-5 align-right">
+          <div className="my-5 d-flex align-right">
+
             <CButton
               link="https://easy-buy123.herokuapp.com/"
-              text="Live Project"
+              text="Live "
             />
             <CButton
               link="https://github.com/anshnarula5/ecommerce"
-              text="Source Code"
+              text="Source "
             />
           </div>
         </div>

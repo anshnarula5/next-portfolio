@@ -23,8 +23,8 @@ const About = () => {
             Creative by nature, hard worker by attitude.
           </p>
         </div>
-        <div className="col-md-6 my-auto">
-          <Image alt="coder" src={code} width="600" className="image1" />
+        <div className="col-md-6 my-auto image2" >
+          <Image alt="coder" src={code} width="400" className="image1" />
         </div>
       </div>
     </section>

@@ -100,7 +100,7 @@ const Instagram = ({ isDarkMode }) => {
                   <Skill name="JWT" width=" 4rem" img={jwt} text="text" />
                 </div>
               </div>
-              <div className="my-5 d-flex ">
+              <div className="my-3 d-flex ">
               <CButton  link = "https://instagam.herokuapp.com/" text = "Live "/>
               <CButton link = "https://github.com/anshnarula5/instagram" text = " Code"/>
               </div>

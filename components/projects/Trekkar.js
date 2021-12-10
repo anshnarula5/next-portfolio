@@ -100,7 +100,7 @@ const Trekkar = ({ isDarkMode }) => {
               <Skill name="Mapbox" width="4rem" img={mapbox} text="text" />
             </div>
           </div>
-          <div className="my-5 d-flex align-right">
+          <div className="my-3 d-flex align-right">
 
             <CButton
               link="https://trekkar.herokuapp.com/"

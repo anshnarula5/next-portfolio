@@ -88,7 +88,7 @@ const Countries = ({isDarkMode}) => {
                   />
                 </div>
               </div>
-              <div className="my-5 d-flex">
+              <div className="my-3 d-flex">
                 <CButton  link = "https://countries-app-a5.netlify.app/" text = "Live "/>
                 <CButton link = "https://github.com/anshnarula5/countries1" text = "Source"/>
               </div>

@@ -66,7 +66,7 @@ const Email = () => {
         <div className="d-flex  mt-5 d-flex justify-content-evenly px-5">
           <Tilt style={{ transformStyle: "preserve-3d" }} options={options}>
             <a
-              href="www.linkedin.com/in/anshnarula"
+              href="https://www.linkedin.com/in/anshnarula/"
               className=" ="
               target="_blank"
               rel="noreferrer"

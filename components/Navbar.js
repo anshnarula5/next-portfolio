@@ -16,19 +16,18 @@ const Navbar = ({ mode }) => {
           <div>
             <a className="navbar-brand mr-5">{" <Ansh Narula />"}</a>
           </div>
-          <div className="navbar-toggler">
-            <DarkModeToggle
+        <div className="navHide">
+        <DarkModeToggle
               onChange={setIsDarkMode}
               checked={isDarkMode}
               size={40}
             />
-          </div>
+           </div>
           <div
-            className="collapse navbar-collapse mx-auto"
+            className="collapse navbar-collapse "
             id="navbarSupportedContent"
-            
           >
-            <ul className="navbar-nav  me-auto ">
+            <ul className="navbar-nav  mx-auto ">
               <li className="nav-item">
                 <a href="#about" className="nav-link mx-5">
                   About

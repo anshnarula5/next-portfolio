@@ -7,12 +7,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-a {
-  text-decoration: none;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -101,10 +95,16 @@ div{
 .empty{
   opacity: 0;
 }
+.navHide{
+  display: none;
+}
 
 @media screen and (max-width : 768px){
+  .navHide{
+    display: inline;
+  }
   .main{
-    margin-top: 47px;
+    margin-top: 45px;
   }
   .image1{
     width: 50px !important; 
@@ -150,3 +150,6 @@ div{
   height: 100%;
 } */
 
+.link, a:link, a:visited {
+  text-decoration: none;
+}

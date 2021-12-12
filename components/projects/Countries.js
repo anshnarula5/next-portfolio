@@ -97,16 +97,16 @@ const Countries = ({isDarkMode}) => {
               <div className="px-3">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <Image src={c1} className="d-block w-100" alt="..." />
+                    <Image src={c1} className="d-block w-100" alt="..." priority = {true} />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={c2} className="d-block w-100" alt="..." />
+                    <Image src={c2} className="d-block w-100" alt="..."  priority = {true}/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={c3} className="d-block w-100" alt="..." />
+                    <Image src={c3} className="d-block w-100" alt="..." priority = {true} />
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={c4} className="d-block w-100" alt="..." />
+                    <Image src={c4} className="d-block w-100" alt="..." priority = {true} />
                   </Carousel.Item>
                 </Carousel>
               </div>

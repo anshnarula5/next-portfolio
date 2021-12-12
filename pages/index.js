@@ -22,7 +22,7 @@ export default function Home() {
           color: isDarkMode ? "white" : "inherit",
         }}
       >
-        <About />
+        <About isDarkMode={isDarkMode} />
         <Tech />
         <Projects isDarkMode={isDarkMode} />
         <Connect  isDarkMode={isDarkMode} />

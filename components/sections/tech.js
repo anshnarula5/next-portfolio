@@ -68,7 +68,7 @@ const Tech = () => {
           </div>
         </div>
         <div className="col-md-5 order-md-12 mt-auto image2" >
-          <Image src={code} alt="" layout="responsive" />
+          <Image src={code} alt="" layout="responsive" priority = {true}/>
         </div>
       </div>
     </section>

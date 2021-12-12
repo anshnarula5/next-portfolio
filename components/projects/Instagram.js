@@ -110,16 +110,16 @@ const Instagram = ({ isDarkMode }) => {
               <div className="px-3">
                 <Carousel variant="dark">
                   <Carousel.Item>
-                    <Image src={insta1} className="d-block w-100" alt="..." />
+                    <Image src={insta1} className="d-block w-100" alt="..." priority = {true}/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={insta2} className="d-block w-100" alt="..." />
+                    <Image src={insta2} className="d-block w-100" alt="..." priority = {true}/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={insta3} className="d-block w-100" alt="..." />
+                    <Image src={insta3} className="d-block w-100" alt="..." priority = {true}/>
                   </Carousel.Item>
                   <Carousel.Item>
-                    <Image src={insta4} className="d-block w-100" alt="..." />
+                    <Image src={insta4} className="d-block w-100" alt="..." priority = {true}/>
                   </Carousel.Item>
                 </Carousel>
               </div>

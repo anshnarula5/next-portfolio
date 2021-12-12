@@ -57,16 +57,16 @@ const Easy = ({ isDarkMode }) => {
           <div className="px-3">
             <Carousel variant="dark">
               <Carousel.Item>
-                <Image src={easy1} className="d-block w-100" alt="..." />
+                <Image src={easy1} className="d-block w-100" alt="..." priority = {true}/>
               </Carousel.Item>
               <Carousel.Item>
-                <Image src={easy2} className="d-block w-100" alt="..." />
+                <Image src={easy2} className="d-block w-100" alt="..." priority = {true}/>
               </Carousel.Item>
               <Carousel.Item>
-                <Image src={easy3} className="d-block w-100" alt="..." />
+                <Image src={easy3} className="d-block w-100" alt="..." priority = {true}/>
               </Carousel.Item>
               <Carousel.Item>
-                <Image src={easy4} className="d-block w-100" alt="..." />
+                <Image src={easy4} className="d-block w-100" alt="..." priority = {true}/>
               </Carousel.Item>
             </Carousel>
           </div>

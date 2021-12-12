@@ -56,16 +56,16 @@ const Trekkar = ({ isDarkMode }) => {
           <div className="px-3">
             <Carousel variant="dark">
               <Carousel.Item>
-                <Image src={trekkar1} className="d-block w-100" alt="..." />
+                <Image src={trekkar1} className="d-block w-100" alt="..." priority = {true} />
               </Carousel.Item>
               <Carousel.Item>
-                <Image src={trekkar2} className="d-block w-100" alt="..." />
+                <Image src={trekkar2} className="d-block w-100" alt="..." priority = {true} />
               </Carousel.Item>
               <Carousel.Item>
-                <Image src={trekkar3} className="d-block w-100" alt="..." />
+                <Image src={trekkar3} className="d-block w-100" alt="..." priority = {true} />
               </Carousel.Item>
               <Carousel.Item>
-                <Image src={trekkar4} className="d-block w-100" alt="..." />
+                <Image src={trekkar4} className="d-block w-100" alt="..." priority = {true} />
               </Carousel.Item>
             </Carousel>
           </div>
